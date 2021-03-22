@@ -1,0 +1,132 @@
+ .input{
+     position:absolute;
+     top:5px;
+     width:40vw;
+     border:1px solid black;
+     height:30px;
+     left:10px;
+     text-align: center;
+} 
+/* .container{
+    display: flex;
+    align-items: center;
+} */
+.button{
+    color:white;
+    width: 20vw;
+    height: 30px;
+    float:right;
+    background-color:#4994c2
+ 
+} 
+.widget-input
+{
+    position:relative;
+}
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+.widget{
+    background: #c7afe6;
+    margin-bottom: 4.8rem;
+}
+/* .big-button {
+    background: #4994c2;
+    border: none;
+    border-bottom: 0.6rem solid #3d87b5;
+    color: white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    width: 100%;
+    margin-bottom: 1.6rem;
+    padding: 2.4rem;
+} */
+.big-button:disabled {
+    opacity: .5;
+}
+.button:disabled {
+    cursor: default;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+.button:disabled {
+    cursor: default;
+}
+@media (min-width: 45rem)
+{
+.big-button {
+    margin-bottom: 4.8rem;
+}
+}
+.big-button {
+    background: #4994c2;
+    border: none;
+    border-bottom: 0.6rem solid #3d87b5;
+    color: white;
+    font-weight: bold;
+    font-size: 3.2rem;
+    width: 100%;
+    margin-bottom: 1.6rem;
+    padding: 2.4rem;
+}
+.widget-header__title
+{
+    margin: 0;
+    display: inline-block;
+    color:cornsilk; 
+    position:absolute;
+    left: 40px;
+    top:15px
+}
+.button--link
+{
+    float:right;
+    color:white;
+    border:none;
+    background-color: #100819;
+    position:absolute;
+    right:40px;
+    top:15px
+}
+.widget-header
+{
+    background-color: #100819;
+    height:50px;
+    display: flex;
+    position:relative;
+}
+.container-input{
+    position:relative;
+}
+.list
+{
+    /* COLOR:WHITE;
+     height:60px;
+    /* list-style-type: none; */
+    /* margin:auto;
+    text-align: left;
+    border-bottom: 1px solid black; */ 
+    /* flex-grow: 1; */
+    display:flex; 
+    align-items:center;
+    border-bottom:1px solid black;
+    height:40px;
+    list-style-type: lower-roman;
+    color: cornsilk;
+}
+.widget-body{
+    position:relative
+}
+.remove
+{
+    position:absolute;
+    right:50px;
+    width:10vw;
+    height:5vh;
+    /* margin-top: -20px; */
+}
